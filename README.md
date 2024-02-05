@@ -38,4 +38,4 @@ Contributions
 I welcome your suggestions and pull requests! 🚀
 
 Contact
-If you have questions or suggestions, feel free to reach out via email <kontakt@glazlukasz.pl. 📧
+If you have questions or suggestions, feel free to reach out via email kontakt@glazlukasz.pl. 📧
