@@ -1,0 +1,33 @@
+@media (min-width: 676px) {
+  body {
+    .instalation-code-editor,
+    .container-instalation-vsc {
+      width: 70%;
+    }
+    hr {
+      width: 70%;
+    }
+  }
+}
+@media (min-width: 831px) {
+  body {
+    .instalation-code-editor,
+    .container-instalation-vsc {
+      width: 60%;
+    }
+    hr {
+      width: 60%;
+    }
+  }
+}
+@media (min-width: 1026px) {
+  body {
+    .instalation-code-editor,
+    .container-instalation-vsc {
+      width: 55%;
+    }
+    hr {
+      width: 55%;
+    }
+  }
+}

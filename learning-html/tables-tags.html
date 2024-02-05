@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabele - HTML</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Section Header -->
+    <header>
+      <div class="container">
+        <h2 class="animation-header" id="go-mainwebsite">
+          <span>glazlukasz</span>.pl
+        </h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="/index.html" class="section-home">Strona Główma</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <!-- End Section Header -->
+
+    <!-- Section Tables Tags HTML -->
+    <div class="tables-container">
+      <div class="table-information">
+        <h2>Tabele - HTML</h2>
+      </div>
+      <div class="table-information-box">
+        <p>
+          Tabele w HTML pomagają uporządkować i prezentować dane na stronach
+          internetowych, ułatwiając analizę informacji.
+        </p>
+        <p>
+          Mogą być wykorzystywane do różnych celów, takich jak tworzenie list,
+          harmonogramów czy zestawień.
+        </p>
+        <p>
+          Przy pomocy CSS można dostosować wygląd i układ tabel, zachowując
+          jednocześnie responsywność strony.
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="section-table-tags">
+      <h2>Tabele HTML</h2>
+      <div class="block-tags">
+        <h2>Tabela</h2>
+        <div class="block-tags-container">
+          <h3>&lt;table&gt;</h3>
+          <p>
+            Ten znacznik definiuje samą tabelę. Wewnątrz niego umieszczane są
+            wszystkie elementy tabeli, takie jak wiersze, komórki nagłówka,
+            treści, itp.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Wiersz</h2>
+        <div class="block-tags-container">
+          <h3>&lt;tr&gt;</h3>
+          <p>
+            Znacznik &lt;tr&gt; służy do definiowania wiersza w tabeli. Każdy
+            wiersz zawiera różne komórki, które można umieszczać wewnątrz
+            znacznika &lt;tr&gt;.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Nagłówek</h2>
+        <div class="block-tags-container">
+          <h3>&lt;th&gt;</h3>
+          <p>
+            Ten znacznik definiuje komórkę nagłówka tabeli. Komórki te są
+            zazwyczaj używane do oznaczania kategorii lub nagłówków kolumn w
+            tabeli.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Komórka</h2>
+        <div class="block-tags-container">
+          <h3>&lt;td&gt;</h3>
+          <p>
+            Znacznik &lt;td&gt; służy do definiowania komórki w tabeli. To w
+            tych komórkach umieszcza się rzeczywiste dane, takie jak tekst,
+            liczby czy obrazy.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <!-- Practic Container -->
+    <div class="practic-tables-tags">
+      <h2>A jak to wygląda w praktyce?</h2>
+      <div class="paragraph-container">
+        <p>
+          Tablice (znacznik &lt;table&gt;) w HTML to narzędzie do
+          uporządkowanego prezentowania danych. Składają się z wierszy (znacznik
+          &lt;tr&gt;), z komórkami nagłówka (znacznik &lt;th&gt;) i komórkami
+          treści (znacznik &lt;td&gt;), co ułatwia organizację informacji.
+        </p>
+        <p>
+          Tabele umożliwiają dokładne formatowanie danych i ich stylizację, co
+          przyczynia się do czytelności i atrakcyjności stron internetowych.
+        </p>
+      </div>
+    </div>
+    <!-- End Practict Container -->
+    <!-- Container Present -->
+    <div class="present-format-tables">
+      <p>Wygląd w przeglarce:</p>
+      <img src="/img/section-tags/tags-table-view.png" alt="tags-video-view" />
+      <p>Kod w edytorze:</p>
+      <img src="/img/section-tags/tags-table-code.png" alt="tags-video-code" />
+    </div>
+    <hr />
+
+    <div class="colrow-tables-tags">
+      <h2>Układ Tabeli</h2>
+
+      <p>
+        W celu bardziej zaawansowanego układu tabeli, HTML oferuje atrybuty
+        colspan i rowspan. Atrybut colspan umożliwia łączenie komórek w
+        poziomie, co jest przydatne, gdy chcemy, aby jedna komórka rozciągała
+        się na kilka kolumn. Z kolei atrybut rowspan pozwala na łączenie komórek
+        w pionie, co pozwala na utworzenie komórki, która obejmuje kilka
+        wierszy.
+      </p>
+
+      <h2>Colspan</h2>
+      <div class="block-tags">
+        <div class="block-tags-container">
+          <h3>
+            &lt;td colspan="2"&lt;/td&gt;
+          </h3>
+          <p>
+            Atrybut colspan oznacza "łączną liczbę kolumn" i służy do
+            określenia, na ile kolumn &lt;td&gt; (komórka danych) powinna się rozciągać w poziomie.</td>
+          </p>
+        </div>
+      </div>
+      <h3>Przykład użycia:</h3>
+      <table>
+        <tr>
+          <td colspan="2">Ta komórka obejmuje dwie kolumny</td>
+        </tr>
+      </table>
+
+      <h2>Rowspan</h2>
+      <div class="block-tags">
+        <div class="block-tags-container">
+          <h3>
+            &lt;td rowspan="2"&lt;/td&gt;
+          </h3>
+          <p>
+            Atrybut rowspan oznacza "łączną liczbę wierszy" i służy do określenia, na ile wierszy &lt;td&gt; powinna się rozciągać w pionie.
+          </p>
+        </div>
+      </div>
+      <h3>Przykład użycia:</h3>
+      <table>
+        <tr>
+          <td rowspan="2">Ta komórka obejmuje dwa wiersze</td>
+          <td>Inna komórka</td>
+        </tr>
+        <tr>
+          <td>Komórka w drugim wierszu</td>
+        </tr>
+      </table>
+
+      
+    </div>
+
+    <!-- End Present Container -->
+    <div class="last-section-check">
+      <form>
+        <a href="../learning-html/list-tags.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Cofnij
+        </a>
+        <div class="corect">
+          <a href="../learning-html/semantics-tags.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Dalej
+          </a>
+        </div>
+      </form>
+    </div>
+    <hr />
+    <!-- End Section Tables Tags HTML -->
+
+    <footer>© 2024 All Rights Reserved. By glazlukasz.pl</footer>
+    <script src="/js/menu-mobile.js"></script>
+  </body>
+</html>

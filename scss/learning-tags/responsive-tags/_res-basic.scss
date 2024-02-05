@@ -1,0 +1,47 @@
+@media (min-width: 676px) {
+  body {
+    .basic-tags-html {
+      .element-information,
+      .basic-tags,
+      .format-html,
+      .basic-format-container {
+        width: 70%;
+      }
+
+      hr {
+        width: 70%;
+      }
+    }
+  }
+}
+@media (min-width: 831px) {
+  body {
+    .basic-tags-html {
+      .element-information,
+      .basic-tags,
+      .format-html,
+      .basic-format-container {
+        width: 60%;
+      }
+      hr {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1026px) {
+  body {
+    .basic-tags-html {
+      .element-information,
+      .basic-tags,
+      .format-html,
+      .basic-format-container {
+        width: 55%;
+      }
+      hr {
+        width: 55%;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@media (min-width: 1026px) {
+  #section-contact {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 70%;
+    // border: 1px solid red;
+
+    .correct-ct {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    }
+  }
+}

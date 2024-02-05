@@ -1,0 +1,95 @@
+body {
+  .form-container {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    .form-information {
+      h2 {
+        color: $colorNavigate;
+      }
+    }
+    .form-information-box {
+      margin-top: 5px;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .section-form-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin-top: 15px;
+    h2 {
+      color: $colorNavigate;
+    }
+    .block-tags {
+      margin-top: 15px;
+      h2 {
+        margin-bottom: 15px;
+      }
+      .block-tags-container {
+        background-color: #1b1a20;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 15px;
+        p {
+          width: 90%;
+          margin-top: 10px;
+        }
+        h3 {
+          color: $colorNavigate;
+        }
+      }
+      .container-practic {
+        margin-top: 2rem;
+
+        p {
+          margin-top: 10px;
+        }
+
+        .present-format {
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 14px;
+            margin: 0 auto;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+  .form-container-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    h2 {
+      color: $colorNavigate;
+      margin-top: 10px;
+    }
+    p {
+      margin-top: 15px;
+    }
+    .browser-text {
+      video {
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+        margin: 0 auto;
+        margin-top: 15px;
+      }
+    }
+  }
+}

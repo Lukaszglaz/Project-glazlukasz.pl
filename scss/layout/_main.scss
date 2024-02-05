@@ -1,0 +1,248 @@
+body {
+  background-color: $bgMainColor;
+  header {
+    width: 100%;
+    // border: 1px solid red;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $bgMainColor;
+    transition: 0.5s ease;
+    z-index: 10;
+    @media (min-width: 831px) {
+      padding-left: 64px;
+      padding-right: 64px;
+    }
+    @media (min-width: 1024px) {
+      padding-left: 128px;
+      padding-right: 128px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+
+      h2 {
+        text-transform: uppercase;
+        font-size: 29px;
+        font-weight: 900;
+        z-index: 4;
+        color: $colorNavigate;
+        cursor: pointer;
+
+        span {
+          font-weight: 600;
+          color: $textMainColor;
+        }
+      }
+      .hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        cursor: pointer;
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+
+        .bar,
+        &::after,
+        &::before {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 5px;
+          background-color: $colorNavigate;
+          margin: 6px 0px;
+          transition: 0.4s ease;
+        }
+        @media (min-width: 676px) {
+          display: none;
+        }
+      }
+      .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-8px, 6px);
+      }
+
+      .hamburger.is-active:after {
+        transform: rotate(45deg) translate(-9px, -8px);
+      }
+
+      .hamburger.is-active .bar {
+        opacity: 0;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        min-height: 100vh;
+        display: block;
+        background-color: $bgNavColor;
+        transition: 0.4s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: 676px) {
+          left: 0;
+          min-height: 0vh;
+          background-color: $bgMainColor;
+          position: relative;
+          width: auto;
+        }
+
+        ul {
+          list-style: none;
+          // border: 1px solid green;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          @media (min-width: 676px) {
+            flex-direction: row;
+          }
+          li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            @media (min-width: 676px) {
+              margin: 0;
+              margin-left: 10px;
+            }
+            a {
+              transition: 0.4s ease;
+              // border: 1px solid red;
+              color: $textMainColor;
+              text-decoration: none;
+              background-color: none;
+              font-size: 20px;
+              &:hover {
+                color: $textGrayColor;
+              }
+            }
+            .active {
+              color: $colorNavigate;
+            }
+          }
+        }
+      }
+      nav.is-active {
+        left: 0;
+      }
+    }
+  }
+}
+
+main {
+  position: relative;
+
+  .top-container {
+    width: 95vw;
+    // border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 10vh;
+    color: $textMainColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .info-box {
+      // border: 1px solid blue;
+      margin-top: 15px;
+      font-size: 1.1rem;
+      padding: 10px 42px;
+      font-weight: 600;
+      font-size: 18px;
+      transition: 0.3s ease-in-out;
+
+      .info-text {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      .info-buttons {
+        margin-bottom: 15px;
+        .info-btn {
+          padding: 12px 27px;
+          border-radius: 24px;
+          border: none;
+          box-shadow: 1px 3px 7px $textMainColor;
+          cursor: pointer;
+          transition: 0.5s;
+        }
+      }
+    }
+
+    .ig-box {
+      width: 325px;
+      height: 425px;
+      padding: 10px;
+      margin-top: 15px;
+      margin-bottom: 1rem;
+      border-radius: 2rem;
+      transition: 0.3s ease-in-out;
+      background-color: $blockMainColor;
+      box-shadow: 2px 2px 4px $textMainColor;
+
+      .ig-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+        .info {
+          display: flex;
+          align-items: center;
+          color: #fff;
+          font-weight: 600;
+          font-size: 13px;
+          .info-img {
+            object-fit: cover;
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+        .likes {
+          display: flex;
+          align-items: center;
+          color: #fff;
+          font-weight: 600;
+          font-size: 12px;
+          .icon-box {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            .bx {
+              font-size: 30px;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+      .ig-pic {
+        object-fit: cover;
+        width: 270px;
+        height: 270px;
+        border-radius: 1.6rem;
+        margin-top: 10px;
+      }
+      .info-buttons {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        .info-btn {
+          padding: 12px 27px;
+          border-radius: 24px;
+          border: none;
+          box-shadow: 1px 3px 7px $textMainColor;
+          cursor: pointer;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}

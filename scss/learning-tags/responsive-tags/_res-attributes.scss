@@ -1,0 +1,33 @@
+@media (min-width: 676px) {
+  body {
+    .attributes-container,
+    .section-attributes-tags {
+      width: 70%;
+    }
+    hr {
+      width: 70%;
+    }
+  }
+}
+@media (min-width: 831px) {
+  body {
+    .attributes-container,
+    .section-attributes-tags {
+      width: 60%;
+    }
+    hr {
+      width: 60%;
+    }
+  }
+}
+@media (min-width: 1026px) {
+  body {
+    .attributes-container,
+    .section-attributes-tags {
+      width: 55%;
+    }
+    hr {
+      width: 55%;
+    }
+  }
+}

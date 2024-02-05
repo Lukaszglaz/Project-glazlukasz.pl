@@ -1,0 +1,66 @@
+body {
+  .list-tags-html {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+
+    .element-information {
+      width: 100%;
+      h2 {
+        color: $colorNavigate;
+      }
+      p {
+        margin-top: 10px;
+      }
+    }
+
+    .list-tags {
+      width: 100%;
+      margin-top: 10px;
+
+      h2 {
+        color: $colorNavigate;
+      }
+      h3 {
+        color: $colorNavigate;
+        margin-top: 5px;
+      }
+      p {
+        margin-top: 10px;
+      }
+    }
+
+    .practic-list-tags {
+      margin-top: 10px;
+      h2 {
+        color: $colorNavigate;
+      }
+
+      .paragraph-container {
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    hr {
+      width: 100%;
+    }
+
+    .present-format {
+      p {
+        margin-top: 10px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+        margin: 0 auto;
+        margin-top: 15px;
+      }
+    }
+  }
+}

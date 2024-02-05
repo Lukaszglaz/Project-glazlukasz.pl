@@ -1,0 +1,12 @@
+@media (min-width: 1026px) {
+  #section-info {
+    .dropdown {
+      width: 40vw;
+      .dropdown-item {
+        .sub-menu {
+          width: 40vw;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantyka - HTML</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Section Header -->
+    <header>
+      <div class="container">
+        <h2 class="animation-header" id="go-mainwebsite">
+          <span>glazlukasz</span>.pl
+        </h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="/index.html" class="section-home">Strona Główma</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <!-- End Section Header -->
+
+    <!-- Section Semantics Tags HTML -->
+    <div class="semantics-container">
+      <div class="semantics-information">
+        <h2>Semantyka - HTML</h2>
+      </div>
+      <div class="semantics-information-box">
+        <p>
+          Semantyka HTML to sposób nadawania znaczenia elementom strony
+          internetowej.
+        </p>
+        <p>
+          Na przykład, element &lt;header&gt; definiuje nagłówek dokumentu,
+          &lt;nav&gt; określa łącza nawigacyjne, a &lt;article&gt; definiuje
+          artykuł.
+        </p>
+        <p>
+          Dzięki semantyce, struktura dokumentu staje się bardziej zrozumiała
+          zarówno dla przeglądarek, jak i dla programistów.
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="section-semantics-tags">
+      <h2>Semantyka HTML</h2>
+      <div class="block-tags">
+        <h2>Nagłówek</h2>
+        <div class="block-tags-container">
+          <h3>&lt;header&gt;</h3>
+          <p>
+            Ten element definiuje nagłówek dokumentu lub sekcji. Zazwyczaj
+            zawiera on tytuł, logo, a także inne elementy, które mają być
+            wyświetlane na górze strony lub w sekcji nagłówkowej.
+          </p>
+        </div>
+        <div class="container-practic-tags">
+          <h2>Praktyka:</h2>
+          <div class="container-practic">
+            <p>Wygląd w przeglądarce:</p>
+            <img
+              src="/img/section-tags/tags-header-view.png"
+              alt="tags-header-view"
+            />
+            <p>Kod w edytorze:</p>
+            <img
+              class="correct-position"
+              src="/img/section-tags/tags-header-code.png"
+              alt="tags-header-code"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Główny</h2>
+        <div class="block-tags-container">
+          <h3>&lt;main&gt;</h3>
+          <p>
+            Element ten określa główną treść dokumentu. W jednym dokumencie HTML
+            może być tylko jeden element &lt;main&gt;, który obejmuje główne
+            treści strony, wyłączając nagłówek, stopkę, menu nawigacyjne i inne
+            elementy.
+          </p>
+        </div>
+        <div class="container-practic-tags">
+          <h2>Praktyka:</h2>
+          <div class="container-practic">
+            <p>Wygląd w przeglądarce:</p>
+            <img
+              src="/img/section-tags/tags-main-view.png"
+              alt="tags-main-view"
+            />
+            <p>Kod w edytorze:</p>
+            <img
+              class="correct-position"
+              src="/img/section-tags/tags-main-code.png"
+              alt="tags-main-code"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Boczny</h2>
+        <div class="block-tags-container">
+          <h3>&lt;aside&gt;</h3>
+          <p>
+            Element ten definiuje zawartość niezależną od zawartości strony,
+            tzw. "na marginesie" lub "z boku". Może zawierać dodatkowe
+            informacje, reklamy, itp.
+          </p>
+        </div>
+        <div class="container-practic-tags">
+          <h2>Praktyka:</h2>
+          <div class="container-practic">
+            <p>Wygląd w przeglądarce:</p>
+            <img
+              src="/img/section-tags/tags-aside-view.png"
+              alt="tags-aside-view"
+            />
+            <p>Kod w edytorze:</p>
+            <img
+              class="correct-position"
+              src="/img/section-tags/tags-aside-code.png"
+              alt="tags-aside-code"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Artykuł</h2>
+        <div class="block-tags-container">
+          <h3>&lt;article&gt;</h3>
+          <p>
+            Ten element definiuje artykuł. Może to być pojedynczy artykuł, post
+            na blogu, komentarz, czy inna samodzielna część treści, która ma
+            sens nawet bez reszty strony.
+          </p>
+        </div>
+        <div class="container-practic-tags">
+          <h2>Praktyka:</h2>
+          <div class="container-practic">
+            <p>Wygląd w przeglądarce:</p>
+            <img
+              src="/img/section-tags/tags-article-view.png"
+              alt="tags-article-view"
+            />
+            <p>Kod w edytorze:</p>
+            <img
+              class="correct-position"
+              src="/img/section-tags/tags-article-code.png"
+              alt="tags-article-code"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Sekcja</h2>
+        <div class="block-tags-container">
+          <h3>&lt;section&gt;</h3>
+          <p>
+            Służy do definiowania sekcji w dokumencie. Jest to ogólny kontener,
+            który może grupować powiązane elementy. Często używany jest do
+            podziału treści na logiczne bloki.
+          </p>
+        </div>
+        <div class="container-practic-tags">
+          <h2>Praktyka:</h2>
+          <div class="container-practic">
+            <p>Wygląd w przeglądarce:</p>
+            <img
+              src="/img/section-tags/tags-section-view.png"
+              alt="tags-section-view"
+            />
+            <p>Kod w edytorze:</p>
+            <img
+              class="correct-position"
+              src="/img/section-tags/tags-section-code.png"
+              alt="tags-section-code"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Nawigacja</h2>
+        <div class="block-tags-container">
+          <h3>&lt;nav&gt;</h3>
+          <p>
+            Służy do definiowania łączy nawigacyjnych, czyli menu. Wewnątrz tego
+            elementu umieszcza się zazwyczaj listy lub inne elementy, które
+            pomagają użytkownikowi nawigować po stronie.
+          </p>
+        </div>
+        <div class="container-practic-tags">
+          <h2>Praktyka:</h2>
+          <div class="container-practic">
+            <p>Wygląd w przeglądarce:</p>
+            <img
+              src="/img/section-tags/tags-nav-view.png"
+              alt="tags-nav-view"
+            />
+            <p>Kod w edytorze:</p>
+            <img
+              class="correct-position"
+              src="/img/section-tags/tags-nav-code.png"
+              alt="tags-nav-code"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Stopka</h2>
+        <div class="block-tags-container">
+          <h3>&lt;footer&gt;</h3>
+          <p>
+            Element ten definiuje stopkę dokumentu lub sekcji. W stopce często
+            umieszcza się informacje kontaktowe, datę ostatniej aktualizacji,
+            linki do stron powiązanych itp.
+          </p>
+        </div>
+        <div class="container-practic-tags">
+          <h2>Praktyka:</h2>
+          <div class="container-practic">
+            <p>Wygląd w przeglądarce:</p>
+            <img
+              src="/img/section-tags/tags-footer-view.png"
+              alt="tags-footer-view"
+            />
+            <p>Kod w edytorze:</p>
+            <img
+              class="correct-position"
+              src="/img/section-tags/tags-footer-code.png"
+              alt="tags-footer-code"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last-section-check">
+      <form>
+        <a href="../learning-html/tables-tags.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Cofnij
+        </a>
+        <div class="corect">
+          <a href="../learning-html/form-tags.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Dalej
+          </a>
+        </div>
+      </form>
+    </div>
+    <hr />
+
+    <!-- End Section Semantics Tags HTML -->
+
+    <footer>© 2024 All Rights Reserved. By glazlukasz.pl</footer>
+    <script src="/js/menu-mobile.js"></script>
+  </body>
+</html>

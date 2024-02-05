@@ -1,0 +1,159 @@
+body {
+  .tables-container {
+    width: 90%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: 1px solid red;
+    .table-information {
+      text-align: center;
+      color: $colorNavigate;
+    }
+    .table-information-box {
+      text-align: center;
+      margin-top: 5px;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .section-table-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    width: 90%;
+    h2 {
+      color: $colorNavigate;
+    }
+
+    .block-tags {
+      margin-top: 5px;
+      h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .block-tags-container {
+        background-color: #1b1a20;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 15px;
+        h3 {
+          color: $colorNavigate;
+        }
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  .practic-tables-tags {
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2 {
+      color: $colorNavigate;
+    }
+    .paragraph-container {
+      margin-top: 10px;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .present-format-tables {
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    p {
+      margin-top: 10px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+  }
+
+  hr {
+    width: 90%;
+    height: 4px;
+    border: 0;
+    margin-top: 15px;
+    background-color: $colorNavigate;
+  }
+
+  .colrow-tables-tags {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2,
+    p,
+    h3,
+    table {
+      margin-top: 10px;
+    }
+    h3,
+    h2 {
+      color: $colorNavigate;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      /* Stylizacja komórek treści */
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      /* Zmiana koloru tła komórek nagłówka */
+      th {
+        background-color: #f2f2f2;
+      }
+    }
+    .block-tags {
+      margin-top: 15px;
+      .block-tags-container {
+        background-color: #1b1a20;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 15px;
+        h3 {
+          color: $colorNavigate;
+        }
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

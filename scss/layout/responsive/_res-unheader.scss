@@ -1,0 +1,74 @@
+@media (min-width: 676px) {
+  #section-under {
+    .text-box {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //   border: 1px solid blue;
+      .paragraph-one,
+      .paragraph-two,
+      .paragraph-three {
+        height: 220px;
+        //   border: 1px solid blue;
+        width: 70%;
+      }
+    }
+
+    .box-information {
+      // border: 1px solid red;
+      display: flex;
+      // flex-direction: row;
+      flex-wrap: wrap;
+      .first-skills,
+      .two-skills,
+      .three-skills,
+      .four-skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        // border: 1px solid blue;
+
+        .skills {
+          margin-right: 25px;
+          margin-left: 5px;
+        }
+      }
+
+      .first-skills {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media (min-width: 831px) {
+  #section-under {
+    .text-box {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .paragraph-one,
+      .paragraph-two,
+      .paragraph-three {
+        height: 240px;
+        //   border: 1px solid blue;
+        width: 45%;
+      }
+    }
+  }
+}
+@media (min-width: 1026px) {
+  #section-under {
+    .text-box {
+      flex-wrap: nowrap;
+      .paragraph-one,
+      .paragraph-two,
+      .paragraph-three {
+        height: 260px;
+        //   border: 1px solid blue;
+        max-width: 25%;
+      }
+    }
+  }
+}

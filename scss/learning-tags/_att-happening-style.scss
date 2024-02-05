@@ -1,0 +1,62 @@
+body {
+  .happening-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    h2 {
+      color: $colorNavigate;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+  .happening-table-con {
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2 {
+      color: $colorNavigate;
+    }
+    p {
+      margin-top: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      margin-top: 15px;
+
+      tr {
+        th,
+        td {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        th {
+          color: $colorNavigate;
+          text-align: center;
+        }
+      }
+    }
+    .one-box,
+    .two-box,
+    .three-box,
+    .four-box,
+    .five-box,
+    .six-box,
+    .seven-box,
+    .eight-box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

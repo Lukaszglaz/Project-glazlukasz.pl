@@ -1,0 +1,24 @@
+@media (min-width: 676px) {
+  body {
+    .entities-container,
+    .section-entities-tags {
+      width: 70%;
+    }
+  }
+}
+@media (min-width: 831px) {
+  body {
+    .entities-container,
+    .section-entities-tags {
+      width: 60%;
+    }
+  }
+}
+@media (min-width: 1026px) {
+  body {
+    .entities-container,
+    .section-entities-tags {
+      width: 55%;
+    }
+  }
+}

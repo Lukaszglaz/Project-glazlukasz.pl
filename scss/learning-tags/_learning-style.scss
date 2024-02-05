@@ -1,0 +1,309 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $textMainColor;
+  background-color: $bgMainColor;
+  header {
+    width: 100%;
+    // border: 1px solid red;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $bgMainColor;
+    transition: 0.5s ease;
+    z-index: 6;
+    @media (min-width: 831px) {
+      padding-left: 64px;
+      padding-right: 64px;
+    }
+    @media (min-width: 1024px) {
+      padding-left: 128px;
+      padding-right: 128px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        text-transform: uppercase;
+        font-size: 29px;
+        font-weight: 900;
+        z-index: 4;
+        color: $colorNavigate;
+        cursor: pointer;
+
+        span {
+          font-weight: 600;
+          color: $textMainColor;
+        }
+      }
+      .hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        cursor: pointer;
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+
+        .bar,
+        &::after,
+        &::before {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 5px;
+          background-color: $colorNavigate;
+          margin: 6px 0px;
+          transition: 0.4s ease;
+        }
+        @media (min-width: 676px) {
+          display: none;
+        }
+      }
+      .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-8px, 6px);
+      }
+
+      .hamburger.is-active:after {
+        transform: rotate(45deg) translate(-9px, -8px);
+      }
+
+      .hamburger.is-active .bar {
+        opacity: 0;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        min-height: 100vh;
+        display: block;
+        background-color: $bgNavColor;
+        transition: 0.4s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: 676px) {
+          left: 0;
+          min-height: 0vh;
+          background-color: $bgMainColor;
+          position: relative;
+          width: auto;
+        }
+
+        ul {
+          list-style: none;
+          // border: 1px solid green;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          @media (min-width: 676px) {
+            flex-direction: row;
+          }
+          li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            @media (min-width: 676px) {
+              margin: 0;
+              margin-left: 10px;
+            }
+            a {
+              transition: 0.4s ease;
+              // border: 1px solid red;
+              color: $textMainColor;
+              text-decoration: none;
+              background-color: none;
+              font-size: 20px;
+              &:hover {
+                color: $textGrayColor;
+              }
+            }
+            .active {
+              color: $colorNavigate;
+            }
+          }
+        }
+      }
+      nav.is-active {
+        left: 0;
+      }
+    }
+  }
+
+  .information-html {
+    // border: 1px solid red;
+    color: $textMainColor;
+    margin-top: 10vh;
+    width: 90%;
+    text-align: center;
+    .main-text {
+      h2,
+      h4 {
+        color: $colorNavigate;
+      }
+      h4 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+    }
+    .information {
+      margin-top: 15px;
+      p {
+        margin-top: 5px;
+      }
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .container-wrape {
+    width: 90%;
+    background-color: $blockMainColor;
+    border-radius: 24px;
+    margin-top: 25px;
+    .click-block {
+      height: 5vh;
+      border-radius: 24px 24px 0 0;
+      background-color: #1d1e18;
+      // border: 1px solid red;
+      display: flex;
+      align-items: center;
+      .red,
+      .orange,
+      .green {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+      }
+      .red {
+        background-color: $redCyrcleMacOs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+      }
+      .orange {
+        background-color: $orangedCyrcleMacOs;
+        margin-left: 5px;
+      }
+      .green {
+        background-color: $greenCyrcleMacOs;
+        margin-left: 5px;
+      }
+    }
+    .code-wrape {
+      background-color: #1d1e18;
+      border-radius: 0 0 24px 24px;
+      position: relative;
+      pre {
+        white-space: wrap;
+        overflow-x: auto;
+        margin-left: 10px;
+        padding: 0 10px 10px 10px;
+        code {
+          color: #55564d;
+        }
+      }
+      #copy-button {
+        background-color: transparent;
+        border: 0;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        cursor: pointer;
+        color: $colorNavigate;
+        i {
+          font-size: 16px;
+          color: $colorNavigate;
+        }
+      }
+    }
+  }
+  .translate-section {
+    width: 90%;
+    margin-top: 15px;
+    text-align: center;
+    h2 {
+      color: $colorNavigate;
+      font-size: 22px;
+    }
+    h3 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .whatis-html {
+    width: 90%;
+    margin-top: 15px;
+    text-align: center;
+    h2 {
+      color: $colorNavigate;
+      font-size: 22px;
+    }
+    .paragraph-info {
+      p {
+        margin-top: 5px;
+        span {
+          font-weight: 600;
+        }
+      }
+      .color-firstpar {
+        color: $colorNavigate;
+      }
+      .warning-text {
+        margin-top: 10px;
+      }
+    }
+    .corect-margin {
+      margin-top: 15px;
+    }
+  }
+
+  .view-browser {
+    width: 90%;
+    margin-top: 15px;
+    text-align: center;
+    h2 {
+      font-size: 22px;
+      color: $colorNavigate;
+    }
+    .browser-text {
+      margin-top: 10px;
+      p {
+        margin-top: 5px;
+      }
+    }
+    h3 {
+      margin-top: 10px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+  }
+}
+
+body {
+  hr {
+    width: 90%;
+    height: 4px;
+    border: 0;
+    margin-top: 15px;
+    background-color: $colorNavigate;
+  }
+}

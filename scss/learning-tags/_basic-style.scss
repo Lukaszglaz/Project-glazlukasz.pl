@@ -1,0 +1,114 @@
+body {
+  .basic-tags-html {
+    margin-top: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    hr {
+      width: 90%;
+    }
+
+    .element-information {
+      width: 90%;
+      h2 {
+        color: $colorNavigate;
+      }
+      p {
+        margin-top: 10px;
+      }
+    }
+
+    .basic-tags {
+      margin-top: 10px;
+      width: 90%;
+      h2 {
+        color: $colorNavigate;
+      }
+
+      .block-tags {
+        .block-tags-container {
+          margin-top: 1.5rem;
+          height: 150px;
+          background-color: #1b1a20;
+          border-radius: 24px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 15px;
+          p {
+            width: 90%;
+            margin-top: 5px;
+          }
+          h3 {
+            margin-top: 5px;
+            color: $colorNavigate;
+          }
+        }
+      }
+    }
+    .format-html {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 90%;
+      h2 {
+        color: $colorNavigate;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      p {
+        margin-top: 10px;
+      }
+    }
+    .basic-format-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 90%;
+      .block-tags {
+        width: 100%;
+
+        h2 {
+          color: $colorNavigate;
+          margin-top: 10px;
+        }
+        .block-tags-container {
+          background-color: #1b1a20;
+          border-radius: 24px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 15px;
+          margin-top: 10px;
+          h3 {
+            color: $colorNavigate;
+            margin-top: 10px;
+          }
+          p {
+            margin-top: 10px;
+          }
+        }
+      }
+      .present-format {
+        p {
+          margin-top: 10px;
+          text-align: center;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 14px;
+          margin: 0 auto;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

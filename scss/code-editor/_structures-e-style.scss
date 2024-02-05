@@ -1,0 +1,55 @@
+body {
+  .section-structures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    width: 90%;
+    h2 {
+      text-align: center;
+      color: $colorNavigate;
+    }
+    h3 {
+      color: $colorNavigate;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    p {
+      text-align: center;
+    }
+    .paragraph-open {
+      margin-top: 15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      margin-top: 15px;
+
+      tr {
+        th,
+        td {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        th {
+          color: $colorNavigate;
+          text-align: center;
+        }
+      }
+      .correct {
+        width: 50%;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}

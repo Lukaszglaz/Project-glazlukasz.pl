@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona Główna - HTML</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+  </head>
+  <body>
+    <!-- Section Header -->
+    <header>
+      <div class="container">
+        <h2 class="animation-header" id="go-mainwebsite"><span>glazlukasz</span>.pl</h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="/index.html">Strona Główna</a>
+            </li>
+           
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <!-- End Section Header -->
+
+    <!-- Section Information HTML -->
+    <div class="information-html">
+      <div class="main-text">
+        <h2>HTML</h2>
+      <h4> | Hyper Text Markup Language | </h4>
+      </div>
+
+      <p>
+        Jest to standardowy język znaczników używany do tworzenia stron
+        internetowych. Jest on prosty do nauki i za jego pomocą możemy tworzyć
+        strony internetowe.
+      </p>
+     <div class="information">
+        <p>Zbudowany jest z różnorodnych elementów które, informują przeglądarkę, o tym jak ma wyświetlić treść oraz precyzyjnie określają fragmenty zawartości, takie jak nagłówki, akapity, hiperłącza i wiele innych.</p>
+     </div>
+    </div>
+    <!-- End Section Information HTML -->
+    <!-- Section Document HTML -->
+    <div class="container-wrape">
+      <div class="click-block">
+        <div class="red">
+        </div>
+        <div class="orange"></div>
+        <div class="green"></div>
+      </div>
+      <div class="code-wrape">
+        <pre>
+          <code>
+            // Przykładowy początkowy kod html.
+            <br>
+            <br>
+            1
+            &nbsp;&nbsp;&lt;!DOCTYPE html&gt;
+            <br>
+            2
+            &nbsp;&nbsp;&nbsp;&lt;html&gt;
+            <br>
+            3
+            &nbsp;&nbsp;&nbsp;&lt;head&gt;
+            <br>
+            4
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Moja Strona&lt;/title&gt;
+            <br>
+            5
+            &nbsp;&nbsp;&nbsp;&lt;/head&gt;
+            <br>
+            6
+            &nbsp;&nbsp;&nbsp;&lt;body&gt;
+            <br>
+            7
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Witaj, Świecie.&lt;/h1&gt;
+            <br>
+            8
+            &nbsp;&nbsp;&nbsp;&lt;/body&gt;
+            <br>
+            9
+            &nbsp;&nbsp;&nbsp;&lt;/html&gt;
+          </code>
+          
+        </pre>
+        <button id="copy-button">
+          <i class='bx bx-copy'></i> 
+      </button>
+      </div>
+    </div>
+    <hr>
+
+      <div class="translate-section">
+        <h2>Tłumaczenie początkowego kodu HTML</h2>
+        <h3>1.</h3>
+        <p>
+          Jest to deklaracja doctype, która informuje przeglądarkę, że strona jest napisana w formacie HTML. Dzięki temu przeglądarka może poprawnie wyświetlić stronę.
+        </p>
+        <h3>2.</h3>
+        <p>
+          Jest to otwierający znacznik HTML. Cała witryna jest zawarta w tym znaczniku.
+        </p>
+        <h3>3.</h3>
+        <p>
+          Ten znacznik zawiera metadane strony, takie jak tytuł wyświetlany na pasku tytułu przeglądarki oraz inne informacje, takie jak połączone arkusze stylów CSS, skrypty JavaScript itp
+        </p>
+        <h3>4.</h3>
+        <p>
+          To jest znacznik tytułu strony. Tekst "Moja Strona" będzie wyświetlany na pasku tytułu przeglądarki.
+        </p>
+        <h3>5.</h3>
+        <p>
+          To zamykający znacznik który, oznacza koniec sekcji z metadanymi.
+        </p>
+        <h3>6.</h3>
+        <p>
+          To jest otwarcie znacznika ciała strony. Wszystkie widoczne treści strony, takie jak tekst, obrazy, linki itp., znajdują się wewnątrz tego znacznika.
+        </p>
+        <h3>7.</h3>
+        <p>
+          To jest nagłówek pierwszego poziomu, oznaczony jako „h1”. Jako najważniejszy tytuł strony pojawia się tekst „Witaj, Świecie.”. Nagłówki są często używane do oznaczania nagłówków i sekcji na stronie.
+        </p>
+        <h3>8.</h3>
+        <p>
+          Jest to zamykający znacznik treści strony, który oznacza koniec widocznej części strony.
+        </p>
+        <h3>9.</h3>
+        <p>
+          To zamykający tag dla elementu który, oznacza koniec dokumentu HTML.
+        </p>
+        <h3>*DODATEK*</h3>
+        <p>Ostrzeżenie:</p>
+        <p>
+          Cała sekcja &lt;body&gt; jest wyśietlana w przeglądarce. Lecz treść sekcji &lt;title&gt; jest wyśietlana na pasku tytułu przeglądarki lub w zakładce strony.
+        </p>
+      </div>
+      <hr>
+      <div class="whatis-html">
+        <h2>Czym jest Element HTML</h2>
+        <div class="paragraph-info">
+          <p class="corect-margin">Element HTML jest definiowany przez trzy główne składniki:</p>
+          <p>- znacznik otwierający</p>
+          <p>- zawartość</p>
+          <p>- znacznik zamykający</p>
+          <p class="corect-margin">Czyli:</p>
+          <p class="color-firstpar">&lt;Znacznik&gt; Zawartość &lt;/Znacznik&gt; </p>
+          <p class="corect-margin">Zakładając, że mamy trzy elementy, czyli element HTML obejmuje całą zawartość od jego znacznika otwierającego do znacznika zamykającego.</p>
+          <p class="corect-margin">Przykłady:</p>
+          <p class="color-firstpar">&lt;h2&gt; Mój pierwszy nagłówek &lt;/h2&gt; </p>
+          <p class="color-firstpar">&lt;p&gt; Mój pierwszy tekst &lt;/p&gt; </p>
+          <p class="warning-text">Ostrzeżenie:</p>
+          <p class="corect-margin">Niektóre elementy HTML, takie jak element  &lt;/br&gt;, nie posiadają treści i są określane jako elementy puste. Elementy puste nie posiadają znacznika zamykającego.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="view-browser">
+        <h2>A jak to wygląda w praktyce?</h2>
+       <div class="browser-text">
+        <p>
+          Celem przeglądarek internetowych jest odczytywanie dokumentów HTML i ich poprawne wyświetlanie.
+        </p>
+        <p>
+          Przeglądarki nie wyświetlają znaczników HTML, ale wykorzystują je do określenia sposobu wyświetlania dokumentu.
+        </p>
+        <p>Naprzykład:</p>
+        <p>Wygląd w przeglądarce</p>
+        <img src="/img/gl-websiteview.png" alt="code-hmtl">
+        <p>Kod w edytorze</p>
+        <img src="/img/gl-codewview.png" alt="codehtml-view">
+        </div>
+      </div>
+      <div class="last-section-check">
+        <form>
+
+            <a href="../index.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Cofnij
+            </a>
+            <div class="corect">
+                <a href="../learning-html/basic-tags.html">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Dalej
+                </a>
+            </div>
+        </form>
+    </div>
+      <hr>  
+      <footer>© 2024 All Rights Reserved. By glazlukasz.pl</footer>
+    <!-- End Section Document HTML -->
+    <script src="/js/menu-mobile.js"></script>
+    <script src="/js/copytx-button.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularze - HTML</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Section Header -->
+    <header>
+      <div class="container">
+        <h2 class="animation-header" id="go-mainwebsite">
+          <span>glazlukasz</span>.pl
+        </h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="/index.html" class="section-home">Strona Główma</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <!-- End Section Header -->
+
+    <!-- Section Form Tags HTML -->
+    <div class="form-container">
+      <div class="form-information">
+        <h2>Formularze - HTML</h2>
+      </div>
+      <div class="form-information-box">
+        <p>
+          Formularze HTML są kluczowym narzędziem interakcji na stronach
+          internetowych. Pozwalają użytkownikom wprowadzać, przesyłać i
+          przetwarzać dane.
+        </p>
+        <p>
+          Wewnątrz tagu &lt;form&gt;, można umieścić różne elementy, takie jak
+          pola tekstowe &lt;input&gt;, przyciski &lt;button&gt; czy listy
+          rozwijane &lt;select&gt;.
+        </p>
+        <p>
+          Formularze są istotne nie tylko dla zbierania informacji od
+          użytkowników, ale także dla zapewnienia intuicyjnego doświadczenia
+          podczas przeglądania strony internetowej. Poprawne ich użycie wpływa
+          na dostępność i użyteczność witryny.
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="section-form-tags">
+      <h2>Formularze HTML</h2>
+      <div class="block-tags">
+        <h2>Formularz</h2>
+        <div class="block-tags-container">
+          <h3>&lt;form&gt;</h3>
+          <p>
+            Znacznik formularza definiuje obszar, w którym użytkownicy mogą
+            wprowadzać dane, które można następnie przesłać do serwera.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Wejście</h2>
+        <div class="block-tags-container">
+          <h3>&lt;input&gt;</h3>
+          <p>
+            Znacznik input tworzy pole wejściowe, w którym użytkownicy mogą
+            wprowadzać różne rodzaje danych, takie jak tekst, liczby czy
+            checkboxy.
+          </p>
+        </div>
+      </div>
+
+      <div class="block-tags">
+        <h2>Obszar</h2>
+        <div class="block-tags-container">
+          <h3>&lt;textarea&gt;</h3>
+          <p>
+            Ten znacznik pozwala na tworzenie obszarów wprowadzania tekstu o
+            wielu wierszach, idealnych do wprowadzania dłuższych informacji.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Przycisk</h2>
+        <div class="block-tags-container">
+          <h3>&lt;button&gt;</h3>
+          <p>
+            Znacznik button definiuje interaktywny przycisk, który użytkownicy
+            mogą kliknąć, na przykład do potwierdzenia formularza.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Lista</h2>
+        <div class="block-tags-container">
+          <h3>&lt;select&gt;</h3>
+          <p>
+            Znacznik select definiuje listę rozwijaną, a wewnątrz niego używane
+            są znaczniki &lt;option&gt;, które reprezentują poszczególne opcje
+            na liście.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Opcja</h2>
+        <div class="block-tags-container">
+          <h3>&lt;option&gt;</h3>
+          <p>
+            Znacznik &lt;option&gt; definiuje pojedynczą opcję w rozwijanej
+            liście, umożliwiając precyzyjne kontrolowanie dostępnych wyborów
+          </p>
+        </div>
+      </div>
+
+      <div class="block-tags">
+        <h2>Etykieta</h2>
+        <div class="block-tags-container">
+          <h3>&lt;label&gt;</h3>
+          <p>
+            Znacznik label przypisuje etykietę do elementu formularza, co
+            poprawia dostępność i ułatwia zrozumienie dla użytkowników.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Grupa</h2>
+        <div class="block-tags-container">
+          <h3>&lt;fieldset&gt;</h3>
+          <p>
+            Znacznik fieldset grupuje powiązane elementy formularza, pomagając w
+            lepszym zorganizowaniu i semantyce.
+          </p>
+        </div>
+      </div>
+      <div class="block-tags">
+        <h2>Opis</h2>
+        <div class="block-tags-container">
+          <h3>&lt;legend&gt;</h3>
+          <p>
+            Znacznik legend definiuje opis dla elementu fieldset, dostarczając
+            użytkownikom dodatkowej informacji o grupie elementów formularza.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <div class="view-browser">
+      <h2>A jak to wygląda w praktyce?</h2>
+      <div class="browser-text">
+        <p>Naprzykład:</p>
+        <p>Wygląd w przeglądarce</p>
+        <img src="/img/section-tags/tags-form-view.png" alt="tags-form-view" />
+        <p>Kod w edytorze</p>
+        <img src="/img/section-tags/tags-form-code.png" alt="tags-form" />
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="form-container-view">
+      <h2>Jak elementy działają w praktyce?</h2>
+      <p>
+        W poniższym filmie eksplorujemy, jak przeglądarki interpretują kod HTML
+        i jak użytkownicy interakcjonują z formularzami przez klikanie,
+        wprowadzanie danych i więcej — przyglądamy się, jak te koncepcje
+        przechodzą od teorii do praktyki.
+      </p>
+      <div class="browser-text">
+        <p>Naprzykład:</p>
+        <video src="/video/form-present-view.mov" controls></video>
+      </div>
+    </div>
+    <div class="last-section-check">
+      <form>
+        <a href="../learning-html/semantics-tags.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Cofnij
+        </a>
+        <div class="corect">
+          <a href="../learning-html/programming.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Dalej
+          </a>
+        </div>
+      </form>
+    </div>
+    <hr />
+
+    <!-- End Section Form Tags HTML -->
+
+    <footer>© 2024 All Rights Reserved. By glazlukasz.pl</footer>
+    <script src="/js/menu-mobile.js"></script>
+  </body>
+</html>

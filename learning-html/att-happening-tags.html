@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atrybuty Zdarzeń - HTML</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Section Header -->
+    <header>
+      <div class="container">
+        <h2 class="animation-header" id="go-mainwebsite">
+          <span>glazlukasz</span>.pl
+        </h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="/index.html" class="section-home">Strona Główma</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <!-- End Section Header -->
+
+    <!-- Section happening Tags HTML -->
+    <div class="happening-container">
+      <div class="happening-information">
+        <h2>Atrybuty Zdarzeń - HTML</h2>
+      </div>
+      <div class="happening-information-box">
+        <p>
+          Atrybuty zdarzeń w HTML pozwalają na zdefiniowanie działań
+          wywoływanych przez zdarzenia na stronie internetowej. Oto kilka
+          kluczowych atrybutów zdarzeń z kategorii:
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="happening-table-con">
+      <div class="one-box">
+        <h2>Atrybuty Zdarzeń Okna</h2>
+
+        <p>
+          Te zdarzenia są wywoływane dla obiektu okna, zazwyczaj stosują się do
+          znacznika &lt;body&gt;.
+        </p>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>onafterprint</td>
+            <td>script</td>
+            <td>script do uruchomienia po wydrukowaniu dokumentu.</td>
+          </tr>
+          <tr>
+            <td>onbeforeprint</td>
+            <td>script</td>
+            <td>script do uruchomienia przed wydrukowaniem dokumentu.</td>
+          </tr>
+          <tr>
+            <td>onbeforeunload</td>
+            <td>script</td>
+            <td>script do uruchomienia, gdy dokument jest o wyładowywany.</td>
+          </tr>
+          <tr>
+            <td>onerror</td>
+            <td>script</td>
+            <td>script do uruchomienia w przypadku wystąpienia błędu.</td>
+          </tr>
+          <tr>
+            <td>onhashchange</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia po zmianie części zakotwiczenia w adresie
+              URL.
+            </td>
+          </tr>
+          <tr>
+            <td>onload</td>
+            <td>script</td>
+            <td>Wywoływane po zakończeniu ładowania strony.</td>
+          </tr>
+          <tr>
+            <td>onmessage</td>
+            <td>script</td>
+            <td>script do uruchomienia po wywołaniu komunikatu.</td>
+          </tr>
+          <tr>
+            <td>onoffline</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy przeglądarka przechodzi w tryb
+              offline.
+            </td>
+          </tr>
+          <tr>
+            <td>ononline</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy przeglądarka przechodzi w tryb online.
+            </td>
+          </tr>
+          <tr>
+            <td>onpagehide</td>
+            <td>script</td>
+            <td>script do uruchomienia, gdy użytkownik opuszcza stronę.</td>
+          </tr>
+          <tr>
+            <td>onpageshow</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy użytkownik przechodzi do strony.
+            </td>
+          </tr>
+          <tr>
+            <td>onpopstate</td>
+            <td>script</td>
+            <td>script do uruchomienia po zmianie historii okna.</td>
+          </tr>
+          <tr>
+            <td>onresize</td>
+            <td>script</td>
+            <td>Wywoływane podczas zmiany rozmiaru okna przeglądarki.</td>
+          </tr>
+          <tr>
+            <td>onstorage</td>
+            <td>script</td>
+            <td>script do uruchomienia po aktualizacji obszaru Web Storage.</td>
+          </tr>
+          <tr>
+            <td>onunload</td>
+            <td>script</td>
+            <td>
+              Wywoływane po odładowaniu strony lub zamknięciu okna przeglądarki.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="two-box">
+        <h2>Atrybuty Zdarzeń Formularza</h2>
+
+        <p>
+          Te zdarzenia są wywoływane przez działania wewnątrz formularza HTML.
+        </p>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>onblur</td>
+            <td>script</td>
+            <td>Wywoływane w momencie, gdy element traci fokus.</td>
+          </tr>
+          <tr>
+            <td>onchange</td>
+            <td>script</td>
+            <td>Wywoływane w momencie zmiany wartości elementu.</td>
+          </tr>
+          <tr>
+            <td>oncontextmenu</td>
+            <td>script</td>
+            <td>script do uruchomienia po wywołaniu menu kontekstowego.</td>
+          </tr>
+          <tr>
+            <td>onfocus</td>
+            <td>script</td>
+            <td>Wywoływane w momencie, gdy element zyskuje fokus.</td>
+          </tr>
+          <tr>
+            <td>oninput</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia po wprowadzeniu danych przez użytkownika.
+            </td>
+          </tr>
+          <tr>
+            <td>oninvalid</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia w przypadku błędu walidacji elementu.
+            </td>
+          </tr>
+          <tr>
+            <td>onreset</td>
+            <td>script</td>
+            <td>Wywoływane po kliknięciu przycisku Reset w formularzu.</td>
+          </tr>
+          <tr>
+            <td>onsearch</td>
+            <td>script</td>
+            <td>
+              Wywoływane po wpisaniu tekstu w pole wyszukiwania (dla
+              &lt;input="search"&gt;).
+            </td>
+          </tr>
+          <tr>
+            <td>onselect</td>
+            <td>script</td>
+            <td>Wywoływane po zaznaczeniu tekstu w elemencie.</td>
+          </tr>
+          <tr>
+            <td>onsubmit</td>
+            <td>script</td>
+            <td>Wywoływane po złożeniu formularza.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="three-box">
+        <h2>Zdarzenia Klawiatury</h2>
+
+        <p>
+          Zdarzenia klawiatury są wywoływane w odpowiedzi na interakcje
+          użytkownika z klawiaturą. Oto kilka kluczowych atrybutów zdarzeń
+          klawiatury:
+        </p>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>onkeydown</td>
+            <td>script</td>
+            <td>Wywoływane po wciśnięciu klawisza.</td>
+          </tr>
+          <tr>
+            <td>onkeypress</td>
+            <td>script</td>
+            <td>Wywoływane po naciśnięciu klawisza.</td>
+          </tr>
+          <tr>
+            <td>onkeyup</td>
+            <td>script</td>
+            <td>Wywoływane po zwolnieniu klawisza.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <h2>Zdarzenia Myszy</h2>
+
+        <p>
+          Zdarzenia myszy są wywoływane w odpowiedzi na interakcje użytkownika z
+          myszą. Oto kilka kluczowych atrybutów zdarzeń myszy:
+        </p>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>onclick</td>
+            <td>script</td>
+            <td>Wywoływane po kliknięciu myszą na elemencie.</td>
+          </tr>
+          <tr>
+            <td>ondblclick</td>
+            <td>script</td>
+            <td>Wywoływane po podwójnym kliknięciu myszą na elemencie.</td>
+          </tr>
+          <tr>
+            <td>onmousedown</td>
+            <td>script</td>
+            <td>Wywoływane po wciśnięciu przycisku myszy na elemencie.</td>
+          </tr>
+          <tr>
+            <td>onmousemove</td>
+            <td>script</td>
+            <td>Wywoływane, gdy wskaźnik myszy porusza się nad elementem.</td>
+          </tr>
+          <tr>
+            <td>onmouseout</td>
+            <td>script</td>
+            <td>Wywoływane, gdy wskaźnik myszy opuszcza element.</td>
+          </tr>
+          <tr>
+            <td>onmouseover</td>
+            <td>script</td>
+            <td>Wywoływane, gdy wskaźnik myszy najedzie na element.</td>
+          </tr>
+          <tr>
+            <td>onmouseup</td>
+            <td>script</td>
+            <td>Wywoływane po zwolnieniu przycisku myszy nad elementem.</td>
+          </tr>
+          <tr>
+            <td>onmousewheel</td>
+            <td>script</td>
+            <td>Przestarzałe. Zamiast tego użyj atrybutu onwheel</td>
+          </tr>
+          <tr>
+            <td>onwheel</td>
+            <td>script</td>
+            <td>Wywoływane po obróceniu kółka myszy nad elementem.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <h2>Zdarzenia Przeciągania</h2>
+
+        <p>
+          Zdarzenia przeciągania są wywoływane w odpowiedzi na operacje
+          przeciągania elementów. Oto kilka kluczowych atrybutów zdarzeń
+          przeciągania:
+        </p>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>ondrag</td>
+            <td>script</td>
+            <td>script do uruchomienia po przeciągnięciu elementu.</td>
+          </tr>
+          <tr>
+            <td>ondragend</td>
+            <td>script</td>
+            <td>script do uruchomienia na końcu operacji przeciągania.</td>
+          </tr>
+          <tr>
+            <td>ondragenter</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy element został przeciągnięty na ważny
+              obszar upuszczania.
+            </td>
+          </tr>
+          <tr>
+            <td>ondragleave</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy element opuszcza ważny obszar
+              upuszczania.
+            </td>
+          </tr>
+          <tr>
+            <td>ondragover</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy element jest przeciągany nad ważnym
+              obszarem upuszczania.
+            </td>
+          </tr>
+          <tr>
+            <td>ondragstart</td>
+            <td>script</td>
+            <td>script do uruchomienia na początku operacji przeciągania.</td>
+          </tr>
+          <tr>
+            <td>ondrop</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia po upuszczeniu przeciąganego elementu.
+            </td>
+          </tr>
+          <tr>
+            <td>onscroll</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia podczas przewijania paska przewijania
+              elementu.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="six-box">
+        <h2>Zdarzenia Schowka</h2>
+
+        <p>
+          Zdarzenia schowka są wywoływane w odpowiedzi na operacje kopiowania,
+          wycinania i wklejania. Oto kilka kluczowych atrybutów zdarzeń schowka:
+        </p>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>oncopy</td>
+            <td>script</td>
+            <td>
+              Wywoływane po skopiowaniu zawartości elementu przez użytkownika.
+            </td>
+          </tr>
+          <tr>
+            <td>oncut</td>
+            <td>script</td>
+            <td>
+              Wywoływane po wycięciu zawartości elementu przez użytkownika.
+            </td>
+          </tr>
+          <tr>
+            <td>onpaste</td>
+            <td>script</td>
+            <td>Wywoływane po wklejeniu zawartości przez użytkownika.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="seven-box">
+        <h2>Zdarzenia multimediów</h2>
+
+        <p>
+          Zdarzenia wywołane przez media, takie jak wideo, obrazy i dźwięk
+          (dotyczy wszystkich elementów HTML, ale jest najczęstsze w elementach
+          multimedialnych, takich jak &lt;audio&gt;, &lt;embed&gt;, &lt;img&gt;,
+          &lt;object&gt; i &lt;video&gt;).
+        </p>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>onabort</td>
+            <td>script</td>
+            <td>script do uruchomienia w przypadku przerwania</td>
+          </tr>
+          <tr>
+            <td>oncanplay</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy plik jest gotowy do rozpoczęcia
+              odtwarzania (gdy jest wystarczająco buforowany, aby zacząć)
+            </td>
+          </tr>
+          <tr>
+            <td>oncanplaythrough</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy plik może być odtwarzany aż do końca
+              bez pauzowania w celu buforowania
+            </td>
+          </tr>
+          <tr>
+            <td>oncuechange</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy zmienia się kwestia w elemencie
+              &lt;track&gt;
+            </td>
+          </tr>
+          <tr>
+            <td>ondurationchange</td>
+            <td>script</td>
+            <td>script do uruchomienia, gdy zmienia się długość multimediów</td>
+          </tr>
+          <tr>
+            <td>onemptied</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy coś złego dzieje się, a plik nagle
+              staje się niedostępny (na przykład niespodziewane rozłączenie)
+            </td>
+          </tr>
+          <tr>
+            <td>onended</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy multimedia osiągną koniec (użyteczne
+              zdarzenie dla komunikatów typu "dziękuję za słuchanie")
+            </td>
+          </tr>
+          <tr>
+            <td>onerror</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy wystąpi błąd podczas ładowania pliku
+            </td>
+          </tr>
+          <tr>
+            <td>onloadeddata</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy dane multimedialne są załadowane
+            </td>
+          </tr>
+          <tr>
+            <td>onloadedmetadata</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy są załadowane metadane (takie jak
+              wymiary i czas trwania)
+            </td>
+          </tr>
+          <tr>
+            <td>onloadstart</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia tuż przed rozpoczęciem ładowania pliku,
+              zanim cokolwiek zostanie faktycznie załadowane
+            </td>
+          </tr>
+          <tr>
+            <td>onpause</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy media są wstrzymane, zarówno przez
+              użytkownika, jak i programowo
+            </td>
+          </tr>
+          <tr>
+            <td>onplay</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy media są gotowe do rozpoczęcia
+              odtwarzania
+            </td>
+          </tr>
+          <tr>
+            <td>onplaying</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy media faktycznie zaczęły się odtwarzać
+            </td>
+          </tr>
+          <tr>
+            <td>onprogress</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy przeglądarka pobiera dane
+              multimedialne
+            </td>
+          </tr>
+          <tr>
+            <td>onratechange</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia za każdym razem, gdy zmienia się tempo
+              odtwarzania (na przykład, gdy użytkownik przełącza się w tryb
+              zwolniony lub przyspieszony)
+            </td>
+          </tr>
+          <tr>
+            <td>onseeked</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy atrybut seeked jest ustawiony na
+              false, co oznacza, że szukanie zakończyło się
+            </td>
+          </tr>
+          <tr>
+            <td>onseeking</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy atrybut seeking jest ustawiony na
+              true, co oznacza, że szukanie jest aktywne
+            </td>
+          </tr>
+          <tr>
+            <td>onstalled</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy przeglądarka nie może pobrać danych
+              multimedialnych z jakiegokolwiek powodu
+            </td>
+          </tr>
+          <tr>
+            <td>onsuspend</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy zatrzymano pobieranie danych
+              multimedialnych zanim zostały one całkowicie załadowane z
+              jakiegokolwiek powodu
+            </td>
+          </tr>
+          <tr>
+            <td>ontimeupdate</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy zmieniła się pozycja odtwarzania (na
+              przykład, gdy użytkownik przewija do innego miejsca w materiale
+              multimedialnym)
+            </td>
+          </tr>
+          <tr>
+            <td>onvolumechange</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia za każdym razem, gdy zmienia się głośność,
+              co obejmuje ustawienie głośności na "wycisz"
+            </td>
+          </tr>
+          <tr>
+            <td>onwaiting</td>
+            <td>script</td>
+            <td>
+              script do uruchomienia, gdy media są wstrzymane, ale oczekuje się,
+              że będą kontynuowane (na przykład, gdy media wstrzymują się, aby
+              buforować więcej danych)
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="eight-box">
+        <h2>Różne Zdarzenia</h2>
+
+        <table>
+          <tr>
+            <th>Atrybut</th>
+            <th>Wartość</th>
+            <th>Opis</th>
+          </tr>
+          <tr>
+            <td>ontoggle</td>
+            <td>script</td>
+            <td>
+              Wywoływane po otwarciu lub zamknięciu elementu &lt;details&gt;
+              przez użytkownika.
+            </td>
+          </tr>
+        </table>
+        <p>
+          Należy pamiętać, że rzeczywiste zastosowanie zależy od konkretnych
+          wymagań projektu w zakresie rozwoju stron internetowych.
+        </p>
+      </div>
+    </div>
+
+    <div class="last-section-check">
+      <form>
+        <a href="../learning-html/entities-tags.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Cofnij
+        </a>
+        <div class="corect">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Dalej
+          </a>
+        </div>
+      </form>
+    </div>
+    <hr />
+
+    <footer>© 2024 All Rights Reserved. By glazlukasz.pl</footer>
+    <script src="/js/menu-mobile.js"></script>
+  </body>
+</html>
